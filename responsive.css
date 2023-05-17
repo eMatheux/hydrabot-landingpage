@@ -1,0 +1,102 @@
+@media screen and (max-width: 940px) {
+    .header-content-logo {
+        width: auto;
+    }
+
+    .header-content-logo label {
+        display: none;
+    }
+
+    .header-content-logo img {
+        width: 70%;
+    }
+    .header-content-main ul, .header-content-main > input {
+        display: none;
+    }
+
+    .principal-content-1, .principal-content-3, .principal-content-5, .principal-content-7 {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+   .principal-content img {
+        width: 100%; 
+        margin-bottom: 20px;
+    }
+
+    .principal-content-1, .principal-content-3, .principal-content-5, .principal-content-7 aside {
+        width: 90%;
+    }
+
+    .principal-content-2, .principal-content-4, .principal-content-6 {
+        width: auto;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .principal-content > .principal-content-8 {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .principal-content > .principal-content-7, .principal-content-5 {
+        width: auto;
+    }
+
+    .principal-content > .principal-content-8 article img {
+        width: 100%;
+    }
+    
+
+    .principal-content > .principal-content-8 aside img{
+        width: 50%;
+    }
+    
+    .principal-content > .principal-content-8 aside {
+        width: auto;
+        text-align: center;
+    }
+
+    .principal-content > .principal-content-9 {
+        width: auto;
+        text-align: center;
+    }
+
+    .principal-content > .principal-content-9 h3 {
+        font-size: 50px;
+    }
+
+    .principal-content > .principal-content-9 p {
+        font-size: 20px;
+    }
+    
+
+    .footer-main {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .footer-left {
+        margin-top: 2%;
+        margin-left: 5%;
+    }
+
+    .footer-left h3 {
+        font-size: 17px;
+    }
+
+
+    .footer-left h2 {
+        font-size: 20px;
+    }
+    .footer-right {
+        margin-left: 5%;
+        gap: 6%;
+        flex-direction: column;
+        text-align: center;
+    }
+}
